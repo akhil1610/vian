@@ -6,7 +6,7 @@ const MainMenu = () => {
             <ul className="d-flex">
                 <li>
                     <NavLink exact to="/">
-                        Home
+                        Rome
                     </NavLink>
                 </li>
                 <li>
