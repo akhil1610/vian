@@ -39,26 +39,30 @@
     }
   }
 }
+.buti{
+  color: #7ca599 !important;
+  font-size: 60px !important;
+}
 
 .hero-slide-content {
   .title {
     font-weight: 700;
     font-size: 55px;
     @include min-screen(1500) {
-      font-size: 60px;
+      font-size: 55px;
     }
     @include max-screen(992, 1199) {
-      font-size: 45px;
+      font-size: 40px;
     }
     @include max-screen(767) {
-      font-size: 35px;
+      font-size: 30px;
       line-height: 1.4;
     }
     @include max-screen(480) {
-      font-size: 30px;
+      font-size: 25px;
     }
     @include max-screen(576, 767) {
-      font-size: 45px;
+      font-size: 40px;
     }
     line-height: 1.2;
     margin-bottom: 3.75rem;

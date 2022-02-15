@@ -47,21 +47,22 @@ const Intro = ({ data }) => {
                                     </span> 
                                 </h2> */}
                                 <h2 className="title animated">
-                                    Nurturing entrepreneurship with
-                                    <Typewriter
-                                        className="title"
-                                        options={{
-                                            strings: [
-                                                "Growth Capital",
-                                                "Insurance",
-                                                "investments",
-                                                "Linkage ",
-                                            ],
-                                            autoStart: true,
-                                            loop: true,
-                                            delay: 40,
-                                        }}
-                                    />
+                                    Nurturing Entrepreneurship With
+                                    <div className="buti">
+                                        <Typewriter
+                                            options={{
+                                                strings: [
+                                                    "Growth Capital",
+                                                    "Insurance",
+                                                    "Investments",
+                                                    "Linkage ",
+                                                ],
+                                                autoStart: true,
+                                                loop: true,
+                                                delay: 40,
+                                            }}
+                                        />
+                                    </div>
                                 </h2>
                             </div>
                             <Button
