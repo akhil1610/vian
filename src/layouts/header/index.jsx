@@ -35,7 +35,7 @@ const Header = () => {
                             <div className="header-logo">
                                 <Logo
                                     classOption="d-block img-es"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/vian.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/fine.png`}
                                     // classOption="d-block img-es"
                                     // image={`${process.env.PUBLIC_URL}/images/logo/vian-white.png`}
                                 />

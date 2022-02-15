@@ -47,22 +47,22 @@
 .hero-slide-content {
   .title {
     font-weight: 700;
-    font-size: 55px;
+    font-size: 53px;
     @include min-screen(1500) {
-      font-size: 55px;
+      font-size: 53px;
     }
     @include max-screen(992, 1199) {
-      font-size: 40px;
+      font-size: 38px;
     }
     @include max-screen(767) {
-      font-size: 30px;
+      font-size: 28px;
       line-height: 1.4;
     }
     @include max-screen(480) {
-      font-size: 25px;
+      font-size: 23px;
     }
     @include max-screen(576, 767) {
-      font-size: 40px;
+      font-size: 38px;
     }
     line-height: 1.2;
     margin-bottom: 3.75rem;
