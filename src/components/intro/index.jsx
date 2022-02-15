@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import Button from "../button";
 import Parallax from "parallax-js";
+import Typewriter from "typewriter-effect";
 
 const Intro = ({ data }) => {
     const sceneEl = useRef(null);
@@ -21,10 +22,48 @@ const Intro = ({ data }) => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="hero-slide-content">
-                            <h2
-                                className="title animated"
-                                dangerouslySetInnerHTML={{ __html: data.title }}
-                            ></h2>
+                            <div className="">
+                                {/* <h2
+                                    className="title animated"
+                                    dangerouslySetInnerHTML={{
+                                        __html: data.title,
+                                    }}
+                                >
+                                    {/* <span>
+                                        <Typewriter
+                                            className="title"
+                                            options={{
+                                                strings: [
+                                                    "Growth Capital",
+                                                    "Insurance",
+                                                    "investments",
+                                                    "Linkage ",
+                                                ],
+                                                autoStart: true,
+                                                loop: true,
+                                                delay: 40,
+                                            }}
+                                        />
+                                    </span> 
+                                </h2> */}
+                                <h2 className="title animated">
+                                    Nurturing entrepreneurship with
+                                    <Typewriter
+                                        className="title"
+                                        options={{
+                                            strings: [
+                                                "Growth Capital",
+                                                "Insurance",
+                                                "investments",
+                                                "Linkage ",
+                                            ],
+                                            autoStart: true,
+                                            loop: true,
+                                            delay: 40,
+                                        }}
+                                    />
+                                </h2>
+                            </div>
                             <Button
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
                                 text="Get Started"
