@@ -42,7 +42,7 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to="/">Pages</NavLink>
+                    <NavLink to="/">Team</NavLink>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
@@ -58,6 +58,14 @@ const MainMenu = () => {
                                 to={process.env.PUBLIC_URL + "/team"}
                             >
                                 team
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/captain"}
+                            >
+                                Be a Captain
                             </NavLink>
                         </li>
                     </ul>

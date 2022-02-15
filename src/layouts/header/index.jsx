@@ -34,8 +34,8 @@ const Header = () => {
                         <div className="col">
                             <div className="header-logo">
                                 <Logo
-                                    classOption="d-block"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo-main.png`}
+                                    classOption="d-block img-es"
+                                    image={`${process.env.PUBLIC_URL}/images/logo/vian.png`}
                                     // classOption="d-block img-es"
                                     // image={`${process.env.PUBLIC_URL}/images/logo/vian-white.png`}
                                 />
