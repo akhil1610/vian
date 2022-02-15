@@ -7,7 +7,7 @@ const IntroContainer = () => {
         <div className="section position-relative">
             <div className="hero-shape1">
                 <img
-                    src={`${process.env.PUBLIC_URL}/images/slider/shape/shape1.png`}
+                    src={`${process.env.PUBLIC_URL}/images/slider/shape/shape_golden.png`}
                     alt="shape"
                 />
             </div>
