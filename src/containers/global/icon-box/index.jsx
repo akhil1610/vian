@@ -15,15 +15,14 @@ const IconBoxContainer = ({ classOption }) => {
             />
             <div className="container custom-container">
                 <div className="row g-0 align-items-center">
-                    <div className="col-xl-6 col-lg-8 mx-auto mb-3 text-center">
+                    <div className="col-xl-8 col-lg-8 mx-auto mb-3 text-center">
                         <SectionTitle
                             classOption="title-section"
-                            subTitle="FEATURES"
-                            title="We are <span class='text-primary'>different</span> because..."
+                            // subTitle="FEATURES"
+                            // title="We are <span class='text-primary'>different</span> because..."
+                            title="USD <span class='text-primary'>1</span> Billion disbursement by <span class='text-primary'>2026</span>, creating <span class='text-primary'>50,00,000</span> entrepreneurship"
                             excerptClassOption="mb-10"
-                            excerpt="Pleasure rationally encounter consequences that are extremely
-                            painful. Nor again is there anyone who loves or pursues or
-                            desires to obtain"
+                            excerpt="At VIAN, we research, identify and make available products and categories that suit the everyday financial needs of the Indian family. Our mission is to provide the best value possible for our customers, so that every rupee they allocate to us gives them more value for money than they would get anywhere else"
                         />
                         <Button
                             classOption="btn btn-lg btn-dark btn-hover-dark"
