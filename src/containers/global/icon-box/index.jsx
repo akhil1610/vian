@@ -15,7 +15,7 @@ const IconBoxContainer = ({ classOption }) => {
             />
             <div className="container custom-container">
                 <div className="row g-0 align-items-center">
-                    <div className="col-xl-8 col-lg-8 mx-auto mb-3 text-center">
+                    <div className="col-xl-9 col-lg-9 mx-auto mb-3 text-center">
                         <SectionTitle
                             classOption="title-section"
                             // subTitle="FEATURES"
