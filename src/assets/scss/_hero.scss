@@ -42,6 +42,22 @@
 .buti{
   color: #7ca599 !important;
   font-size: 60px !important;
+  @include min-screen(1500) {
+    font-size: 60px !important;
+  }
+  @include max-screen(992, 1199) {
+    font-size: 45px !important;
+  }
+  @include max-screen(767) {
+    font-size: 35px !important;
+    line-height: 1.4;
+  }
+  @include max-screen(480) {
+    font-size: 30px !important;
+  }
+  @include max-screen(576, 767) {
+    font-size: 45px !important;
+  }
 }
 
 .hero-slide-content {
