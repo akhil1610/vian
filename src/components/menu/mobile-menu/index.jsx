@@ -39,7 +39,7 @@ const MobileMenu = ({ show, onClose }) => {
                     <div className="offcanvas-header">
                         <Logo
                             classOption="offcanvas-logo d-inline-block"
-                            image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                            image={`${process.env.PUBLIC_URL}/images/logo/fine.png`}
                         />
                         <button
                             type="button"
@@ -95,7 +95,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 </ul>
                             </li>
                             <li>
-                                <NavLink to="/">Pages</NavLink>
+                                <NavLink to="/">Team</NavLink>
                                 <span
                                     className="menu-expand"
                                     onClick={onClickHandler}
@@ -116,6 +116,16 @@ const MobileMenu = ({ show, onClose }) => {
                                             }
                                         >
                                             team
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                "/captain"
+                                            }
+                                        >
+                                            Be A Captain
                                         </NavLink>
                                     </li>
                                 </ul>
