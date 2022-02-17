@@ -87,8 +87,8 @@
 .hero-img {
   @include min-screen(1200) {
     position: absolute;
-    bottom: 1rem;
-    right: 3rem;
+    bottom: 4rem;
+    right: 7rem;
   }
   max-width: 904px;
   @include max-screen(1200, 1499) {
