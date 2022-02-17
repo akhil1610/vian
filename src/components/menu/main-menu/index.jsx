@@ -13,6 +13,32 @@ const MainMenu = () => {
                     <NavLink to={process.env.PUBLIC_URL + "/about"}>
                         About
                     </NavLink>
+                    <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/about"}
+                            >
+                                About Us
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/team"}
+                            >
+                                team
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/captain"}
+                            >
+                                Be a Captain
+                            </NavLink>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/service"}>
@@ -42,33 +68,7 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to="/">Team</NavLink>
-                    <ul className="sub-menu">
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/faq"}
-                            >
-                                faq
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/team"}
-                            >
-                                team
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/captain"}
-                            >
-                                Be a Captain
-                            </NavLink>
-                        </li>
-                    </ul>
+                    <NavLink to={process.env.PUBLIC_URL + "/faq"}>Faq</NavLink>
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/blog"}>

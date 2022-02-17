@@ -3,10 +3,13 @@ import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
+import DirectorPageContainer from "../containers/director";
 import TeampPageContainer from "../containers/team-page-container";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
+import HeadTitle from "../containers/global/head";
+import HeadTitleTwo from "../containers/global/head-two";
 
 const TeamPage = () => {
     return (
@@ -21,6 +24,9 @@ const TeamPage = () => {
                         are extremely painful great oppurtunity"
                         image="./images/team/5.png"
                     />
+                    <HeadTitle />
+                    <DirectorPageContainer />
+                    <HeadTitleTwo />
                     <TeampPageContainer />
                     <NewsletterArea />
                     <Footer />

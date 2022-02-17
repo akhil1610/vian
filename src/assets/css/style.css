@@ -15322,6 +15322,15 @@ p:last-child {
   }
 }
 
+.section-pt {
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-pt {
+    padding-top: 140px;
+  }
+}
 .section-pb {
   padding-bottom: 70px;
 }
