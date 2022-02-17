@@ -21,8 +21,7 @@ const ServicePage = () => {
                     <Header />
                     <PageBanner
                         title="Our Services"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="VIAN provides you tailormade Loans for your business and your family need. VIAN also take cares of your investment &amp; insurance need at you door step."
                         image="./images/service/2.png"
                     />
                     <ServiceListContainer />
