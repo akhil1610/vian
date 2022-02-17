@@ -19,7 +19,7 @@ const CaptainPage = () => {
                         title="Be A Captain"
                         excerpt="Pleasure rationally encounter consequences <br />
                         are extremely painful great oppurtunity"
-                        image="./images/team/5.png"
+                        image="./images/team/10.png"
                     />
                     <TeampPageContainer />
                     <NewsletterArea />
