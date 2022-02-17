@@ -12,19 +12,19 @@
         "brand": [
             {
                 "id": 1,
-                "image": "./images/brand-logo/1.png"
+                "image": "./images/brand-logo/11.png"
             },
             {
                 "id": 2,
-                "image": "./images/brand-logo/2.png"
+                "image": "./images/brand-logo/44.png"
             },
             {
                 "id": 3,
-                "image": "./images/brand-logo/3.png"
+                "image": "./images/brand-logo/33.png"
             },
             {
                 "id": 4,
-                "image": "./images/brand-logo/4.png"
+                "image": "./images/brand-logo/22.png"
             }
         ]
     },
