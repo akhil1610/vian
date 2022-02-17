@@ -10,7 +10,7 @@ const HeadTitle = () => {
                         <SectionTitle
                             classOption="title-section text-center"
                             // subTitle="Heas two"
-                            title="management <span class='text-primary'>team</span>"
+                            title="Management <span class='text-primary'>Team</span>"
                         />
                     </div>
                 </div>
