@@ -33,22 +33,22 @@
             {
                 "id": 1,
                 "className": "grid-item mb-7",
-                "icon": "./images/feature/logo/1.png",
-                "title": "Strong Security",
+                "icon": "./images/feature/logo/11.jpg",
+                "title": "Any where-Any time",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             },
             {
                 "id": 2,
                 "className": "grid-item card-mt-75 mb-7",
-                "icon": "./images/feature/logo/2.png",
-                "title": "Creative Idea",
+                "icon": "./images/feature/logo/22.png",
+                "title": "Super Easy",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             },
             {
                 "id": 1,
                 "className": "grid-item mb-7",
-                "icon": "./images/feature/logo/3.png",
-                "title": "Best Service",
+                "icon": "./images/feature/logo/33.png",
+                "title": "All thing finance",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             }
         ]
