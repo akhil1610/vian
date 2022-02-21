@@ -47,6 +47,57 @@ img {
   max-width: 100%;
   transition: all linear 0.5s;
 }
+.bckimg-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -782px;
+  margin-bottom: 0;
+  @include max-screen(1200) {
+    display: none;
+  }
+}
+.bckimg-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -746px;
+  margin-bottom: 0;
+  @include max-screen(1200) {
+    display: none;
+  }
+}
+.bckimg-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -812px;
+  margin-bottom: 0;
+  @include max-screen(1200) {
+    display: none;
+  }
+}
+.bckimg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -697px;
+  margin-bottom: 0;
+  @include max-screen(1200) {
+    display: none;
+  }
+}
+.del-img-767 {
+  @include max-screen(767) {
+    display: none !important;
+  }
+}
+.my-e-5{
+  margin: 90px 0;
+}
+.mar-top-es{
+  margin: 63px 0;
+}
 .img-es{
   width: 19%;
   @include min-screen(1500) {

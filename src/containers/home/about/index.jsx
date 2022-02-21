@@ -24,12 +24,12 @@ const HomeAboutContainer = () => {
                             <SectionTitle
                                 classOption="title-section"
                                 subTitle="ABOUT US"
-                                title="Best 
+                                title="Your
                                 <span class='text-primary'>
-                                    Digital Agency
+                                all Weather Support System
                                 </span>
                                 <br className='d-none d-xl-block' />
-                                in the Town"
+                                "
                             />
                             <span className="date-meta">
                                 Scince 2001 <span className="hr"></span>

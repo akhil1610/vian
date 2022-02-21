@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "key":1,
+        "image": "./images/team/5.png",
+        "Heading": "Show ur interest",
+        "desc": "Start offering VIAN products to your neighborhoodStart offering VIAN products to your neighborhood"
+    },
+    {
+        "id": 1,
+        "key":2,
+        "image": "./images/team/5.png",
+        "Heading": "We will reach you",
+        "desc": "Start offering VIAN products to your neighborhoodStart offering VIAN products to your neighborhood"
+    },
+    {
+        "id": 1,
+        "image": "./images/team/5.png",
+        "Heading": "Onboard & train you",
+        "desc": "Start offering VIAN products to your neighborhoodStart offering VIAN products to your neighborhood"
+    },
+    {
+        "id": 1,
+        "image": "./images/team/5.png",
+        "Heading": "Start offering VIAN products to your neighborhood",
+        "desc": "Head of Idea"
+    },
+    {
+        "id": 1,
+        "image": "./images/team/5.png",
+        "Heading": "Steady income for you and family",
+        "desc": "Head of Idea"
+    }
+]
+
+
+

@@ -39,7 +39,7 @@ const TestimonialReverse = () => {
                             <SectionTitle
                                 classOption="title-section"
                                 subTitle="TESTIMONIALS"
-                                title="Don’t Believe us Check <span class='text-primary'>Clients</span> word"
+                                title="Don’t Believe us Check <span class='text-primary'>Partners</span> word"
                             />
                             <h5 className="happy-customer">
                                 More over{" "}
