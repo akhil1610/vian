@@ -16,7 +16,7 @@ const ProductsDetails = ({
     },
 }) => {
     const serviceId = parseInt(id, 10);
-    const data = ServiceData.filter((service) => service.id === serviceId);
+    const data = ServiceData.filter((Products) => Products.id === serviceId);
     return (
         <React.Fragment>
             <Layout>
