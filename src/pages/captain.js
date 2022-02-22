@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
 import Roadmap from "../containers/home/roadmap1";
-import TeampPageContainer from "../containers/team-page-container";
+// import TeampPageContainer from "../containers/team-page-container";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
@@ -23,7 +23,7 @@ const CaptainPage = () => {
                         image="./images/team/10.png"
                     />
                     <Roadmap />
-                    <TeampPageContainer />
+                    {/* <TeampPageContainer /> */}
                     <NewsletterArea />
                     <Footer />
                     <ScrollToTop />
