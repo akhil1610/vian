@@ -100,6 +100,40 @@ const MobileMenu = ({ show, onClose }) => {
                                 <NavLink
                                     to={process.env.PUBLIC_URL + "/service"}
                                 >
+                                    Products
+                                </NavLink>
+                                <span
+                                    className="menu-expand"
+                                    onClick={onClickHandler}
+                                    aria-hidden="true"
+                                ></span>
+                                <ul>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                "/products"
+                                            }
+                                        >
+                                            Products
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                "/products-details/1"
+                                            }
+                                        >
+                                            Get inside products
+                                        </NavLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            {/* <li>
+                                <NavLink
+                                    to={process.env.PUBLIC_URL + "/service"}
+                                >
                                     Service
                                 </NavLink>
                                 <span
@@ -129,9 +163,9 @@ const MobileMenu = ({ show, onClose }) => {
                                         </NavLink>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li>
-                                <NavLink to="/faq">Faq</NavLink>
+                                <NavLink to="/faq">FAQ</NavLink>
                             </li>
                             <li>
                                 <NavLink to={process.env.PUBLIC_URL + "/blog"}>

@@ -258,7 +258,7 @@ const Footer = () => {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        codecarnival
+                                        VIAN Growth Capital Private Limited
                                     </a>
                                     , All Rights Reserved
                                 </p>

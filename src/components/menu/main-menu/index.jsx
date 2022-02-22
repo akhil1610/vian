@@ -62,7 +62,7 @@ const MainMenu = () => {
                                     "/products-details/1"
                                 }
                             >
-                                Products Details
+                                Get inside products
                             </NavLink>
                         </li>
                     </ul>
@@ -95,7 +95,7 @@ const MainMenu = () => {
                     </ul>
                 </li> */}
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/faq"}>Faq</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/faq"}>FAQ</NavLink>
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/blog"}>
