@@ -101,7 +101,7 @@ const MainMenu = () => {
                     <NavLink to={process.env.PUBLIC_URL + "/blog"}>
                         Blog
                     </NavLink>
-                    <ul className="sub-menu">
+                    {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
@@ -140,7 +140,7 @@ const MainMenu = () => {
                                 blog details
                             </NavLink>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/career"}>
