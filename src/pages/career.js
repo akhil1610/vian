@@ -20,7 +20,7 @@ const CareerPage = () => {
                         title="Join Us"
                         excerpt="Pleasure rationally encounter consequences <br />
                         are extremely painful great oppurtunity"
-                        image="./images/contact/1.png"
+                        image="./images/career/1.png"
                     />
                     {/* <RoadMap /> */}
                     {/* <ContactContainer />
