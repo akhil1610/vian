@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Button from "../button";
 import Parallax from "parallax-js";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
 const Intro = ({ data }) => {
     const sceneEl = useRef(null);
@@ -75,18 +76,18 @@ const Intro = ({ data }) => {
                                 text="Book a Meeting"
                                 path="/contact"
                             /> */}
-                            <a
-                                href="/#"
-                                className="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
+                            <Link
+                                to="/#"
+                                className="btn btn-lg animated delay1 btn-dark-app-e btn-hover-dark-app-e me-4 mb-3 mb-sm-0"
                             >
                                 <i className="icofont-brand-apple size-icon"></i>
-                            </a>
-                            <a
-                                href="/#"
-                                className="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
+                            </Link>
+                            <Link
+                                to="/#"
+                                className="btn btn-lg animated delay1 btn-dark-andr-e btn-hover-dark-andr-e me-4 mb-3 mb-sm-0"
                             >
                                 <i className="icofont-brand-android-robot size-icon"></i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-6">
