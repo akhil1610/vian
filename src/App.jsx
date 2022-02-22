@@ -15,6 +15,7 @@ import BlogAuthor from "./templates/blog-author";
 import BlogDate from "./templates/blog-date";
 import BlogTag from "./templates/blog-tag";
 import BlogCategory from "./templates/blog-category";
+import CareerPage from "./pages/career";
 import ContactPage from "./pages/contact";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
@@ -64,6 +65,10 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/contact"}`}
                         component={ContactPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/career"}`}
+                        component={CareerPage}
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/blog"}`}

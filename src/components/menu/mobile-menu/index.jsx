@@ -186,6 +186,13 @@ const MobileMenu = ({ show, onClose }) => {
                             </li>
                             <li>
                                 <NavLink
+                                    to={process.env.PUBLIC_URL + "/career"}
+                                >
+                                    Career
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
                                     to={process.env.PUBLIC_URL + "/contact"}
                                 >
                                     Contact
