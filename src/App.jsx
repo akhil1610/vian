@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavScrollTop from "./components/nav-scroll-top";
 import HomePage from "./pages/index";
 import AboutPage from "./pages/about";
+import ProductsPage from "./pages/products";
+import ProductsDetails from "./templates/products-details";
 import ServicePage from "./pages/service";
 import ServiceDetails from "./templates/service-details";
 import TeamPage from "./pages/team";
@@ -39,6 +41,16 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/about"}`}
                         component={AboutPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/products"}`}
+                        component={ProductsPage}
+                    />
+                    <Route
+                        path={`${
+                            process.env.PUBLIC_URL + "/products-details/:id"
+                        }`}
+                        component={ProductsDetails}
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/service"}`}
