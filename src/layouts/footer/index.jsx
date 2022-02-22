@@ -58,7 +58,7 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-3 col-sm-6 mb-7 offset-xl-1">
                             <div className="footer-widget">
-                                <h4 className="title">Quick Link</h4>
+                                <h4 className="title">Quick Links</h4>
                                 <ul className="footer-menu">
                                     <li>
                                         <Link
