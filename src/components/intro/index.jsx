@@ -65,7 +65,7 @@ const Intro = ({ data }) => {
                                     </div>
                                 </h2>
                             </div>
-                            <Button
+                            {/* <Button
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
                                 text="Get Started"
                                 path="/about"
@@ -74,7 +74,19 @@ const Intro = ({ data }) => {
                                 classOption="btn btn-lg animated delay2 btn-secondary btn-hover-secondary mb-3 mb-sm-0"
                                 text="Book a Meeting"
                                 path="/contact"
-                            />
+                            /> */}
+                            <a
+                                href="/#"
+                                className="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
+                            >
+                                <i className="icofont-brand-apple size-icon"></i>
+                            </a>
+                            <a
+                                href="/#"
+                                className="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
+                            >
+                                <i className="icofont-brand-android-robot size-icon"></i>
+                            </a>
                         </div>
                     </div>
                     <div className="col-lg-6">

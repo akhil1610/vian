@@ -18,8 +18,11 @@ const CareerPage = () => {
                     <Header />
                     <PageBanner
                         title="Join Us"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="We offer you the opportunity to solve some of 
+                        the most interesting challenges our society have which 
+                        will be equally compensated by our team-driven culture 
+                        and rewards for individual talent. Send your profile at 
+                        career@viancapital.com"
                         image="./images/career/1.png"
                     />
                     {/* <RoadMap /> */}

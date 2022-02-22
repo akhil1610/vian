@@ -251,16 +251,16 @@ const Footer = () => {
                         <div className="col-12">
                             <div className="copyright-info text-center">
                                 <p>
-                                    Copyright &copy; 2021 Made with{" "}
-                                    <i className="icofont-heart-alt"></i> By{" "}
-                                    <a
+                                    Copyright &copy; 2021 with VIAN Growth
+                                    Capital Private Limited, All Rights Reserved
+                                    {/* {" "} */}
+                                    {/* <i className="icofont-heart-alt"></i> By{" "} */}
+                                    {/* <a
                                         href="https://themeforest.net/user/codecarnival/portfolio"
                                         target="_blank"
                                         rel="noreferrer"
-                                    >
-                                        VIAN Growth Capital Private Limited
-                                    </a>
-                                    , All Rights Reserved
+                                    > */}
+                                    {/* </a> */}
                                 </p>
                             </div>
                         </div>
