@@ -83,22 +83,22 @@
             {
                 "id": 1,
                 "number": 1200,
-                "title": "Projects done"
+                "title": "Loan Processed"
             },
             {
                 "id": 2,
                 "number": 2354,
-                "title": "Happy Clients"
+                "title": "Insurance issued"
             },
             {
                 "id": 3,
                 "number": 3299,
-                "title": "Cup Coffee"
+                "title": "Investments done"
             },
             {
                 "id": 4,
                 "number": 101,
-                "title": "Award Wins"
+                "title": "Payments transacted"
             }
         ]
     },
