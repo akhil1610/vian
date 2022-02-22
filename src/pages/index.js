@@ -10,8 +10,8 @@ import TestimonialContainer from "../containers/global/testimonial";
 import HomeAboutContainer from "../containers/home/about";
 import HomeBlog from "../containers/home/blog";
 import IntroContainer from "../containers/home/intro";
-import RoadmapContainer from "../containers/home/roadmap";
-import Roadmap from "../containers/home/roadmap1";
+// import RoadmapContainer from "../containers/home/roadmap";
+// import Roadmap from "../containers/home/roadmap1";
 import ServiceListContainer from "../containers/service/service-list";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
@@ -25,7 +25,7 @@ const HomePage = () => {
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />
-                    <Roadmap />
+                    {/* <Roadmap /> */}
                     {/* <RoadmapContainer /> */}
                     <BrandContainer />
                     <IconBoxContainer classOption="section-pb" />

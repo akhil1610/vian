@@ -3,6 +3,7 @@ import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
+import Roadmap from "../containers/home/roadmap1";
 import TeampPageContainer from "../containers/team-page-container";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
@@ -21,6 +22,7 @@ const CaptainPage = () => {
                         are extremely painful great oppurtunity"
                         image="./images/team/10.png"
                     />
+                    <Roadmap />
                     <TeampPageContainer />
                     <NewsletterArea />
                     <Footer />
