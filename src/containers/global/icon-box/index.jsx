@@ -20,7 +20,7 @@ const IconBoxContainer = ({ classOption }) => {
                             classOption="title-section"
                             // subTitle="FEATURES"
                             // title="We are <span class='text-primary'>different</span> because..."
-                            title="USD <span class='text-primary'>1</span> Billion disbursement by <span class='text-primary'>2026</span>, creating <span class='text-primary'>50,00,000</span> entrepreneurship"
+                            title="USD <span class='text-primary'>1</span> Billion disbursement by <span class='text-primary'>2026</span>, creating <span class='text-primary'>50,00,000</span> entrepreneurs"
                             excerptClassOption="mb-10"
                             excerpt="At VIAN, we research, identify and make available products and categories that suit the everyday financial needs of the Indian family. Our mission is to provide the best value possible for our customers, so that every rupee they allocate to us gives them more value for money than they would get anywhere else"
                         />
