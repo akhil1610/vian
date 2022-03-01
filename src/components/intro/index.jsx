@@ -48,7 +48,7 @@ const Intro = ({ data }) => {
                                     </span> 
                                 </h2> */}
                                 <h2 className="title animated">
-                                    Nurturing Entrepreneurship with
+                                    Empowering Entrepreneurship through
                                     <div className="buti">
                                         <Typewriter
                                             options={{
@@ -76,7 +76,7 @@ const Intro = ({ data }) => {
                                 text="Book a Meeting"
                                 path="/contact"
                             /> */}
-                            <Link
+                            {/* <Link
                                 to="/#"
                                 className="btn btn-lg animated delay1 btn-dark-app-e btn-hover-dark-app-e me-4 mb-3 mb-sm-0"
                             >
@@ -87,6 +87,21 @@ const Intro = ({ data }) => {
                                 className="btn btn-lg animated delay1 btn-dark-andr-e btn-hover-dark-andr-e me-4 mb-3 mb-sm-0"
                             >
                                 <i className="icofont-brand-android-robot size-icon"></i>
+                            </Link> */}
+                            <Link
+                                to="/#"
+                                className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
+                            >
+                                <img src="images\appIcon\apple1.png" alt="" />
+                            </Link>
+                            <Link
+                                to="/#"
+                                className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
+                            >
+                                <img
+                                    src="images\appIcon\playstore.png"
+                                    alt=""
+                                />
                             </Link>
                         </div>
                     </div>

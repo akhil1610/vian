@@ -31,17 +31,20 @@ const HomeAboutContainer = () => {
                                 <br className='d-none d-xl-block' />
                                 "
                             />
-                            <span className="date-meta">
+                            {/* <span className="date-meta">
                                 Scince 2001 <span className="hr"></span>
-                            </span>
+                            </span> */}
                             <p className="mb-5">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there anyone
-                                who loves or pursues or desires to obtain
+                                Entrepreneurship is critical to sustainable
+                                development and supporting both economic and
+                                social gains, helping to create an inclusive
+                                society. While talent is everywhere, opportunity
+                                is limited.
                             </p>
                             <p className="high-light mb-8">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there
+                                VIAN is committed to build a platform which can
+                                ensure sustained support to rural
+                                entrepreneurship.
                             </p>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"

@@ -9,7 +9,9 @@ const Roadmap = () => {
                         <div className="about-content">
                             <SectionTitle
                                 classOption="title-section"
-                                title={"Show ur interest"}
+                                title={
+                                    "Show ur <span class='text-primary'>interest</span>"
+                                }
                             />
                             <p className="high-light mb-8">
                                 Pleasure rationally encounter consequences that
@@ -34,7 +36,9 @@ const Roadmap = () => {
                         <div className="about-content">
                             <SectionTitle
                                 classOption="title-section"
-                                title={"We will reach you"}
+                                title={
+                                    "We will<span class='text-primary'> reach</span> you"
+                                }
                             />
                             <p className="high-light mb-8">
                                 Pleasure rationally encounter consequences that
@@ -53,7 +57,9 @@ const Roadmap = () => {
                         <div className="about-content">
                             <SectionTitle
                                 classOption="title-section"
-                                title={"Onboard & train you"}
+                                title={
+                                    "Onboard & <span class='text-primary'>train</span> you"
+                                }
                             />
                             <p className="high-light mb-8">
                                 Pleasure rationally encounter consequences that
@@ -85,7 +91,7 @@ const Roadmap = () => {
                             <SectionTitle
                                 classOption="title-section"
                                 title={
-                                    "Start offering VIAN products to your neighborhood"
+                                    "Start offering VIAN products to your <span class='text-primary'>neighborhood</span>"
                                 }
                             />
                             <p className="high-light mb-8">
@@ -105,7 +111,9 @@ const Roadmap = () => {
                         <div className="about-content">
                             <SectionTitle
                                 classOption="title-section"
-                                title={"Steady income for you and family"}
+                                title={
+                                    "Steady income for <span class='text-primary'>you and family</span>"
+                                }
                             />
                             <p className="high-light mb-8">
                                 Pleasure rationally encounter consequences that
