@@ -1,9 +1,9 @@
 import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
-import NewsletterArea from "../containers/global/newsletter";
+// import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
-import Roadmap from "../containers/home/roadmap1";
+// import Roadmap from "../containers/home/roadmap1";
 // import TeampPageContainer from "../containers/team-page-container";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
