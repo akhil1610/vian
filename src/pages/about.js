@@ -21,8 +21,8 @@ const AboutPage = () => {
                 <div className="wrapper">
                     <Header />
                     <PageBanner
-                        title="About us"
-                        excerpt="VIAN Growth Capital is a non-deposit taking NBFC which offers Curated & Value-added financial solution for your business and your family needs."
+                        title="About Us"
+                        excerpt="VIAN Growth Capital is a non-deposit taking NBFC which offers Curated &amp; Value-added financial solution for your business and your family needs."
                         image="./images/banner/1.png"
                     />
                     <IconBoxContainer classOption="section-pt" />

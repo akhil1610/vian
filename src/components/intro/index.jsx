@@ -48,7 +48,7 @@ const Intro = ({ data }) => {
                                     </span> 
                                 </h2> */}
                                 <h2 className="title animated">
-                                    Empowering Entrepreneurship through
+                                    Empowering Entrepreneurs through
                                     <div className="buti">
                                         <Typewriter
                                             options={{
