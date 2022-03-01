@@ -8,6 +8,7 @@ import ServicePage from "./pages/service";
 import ServiceDetails from "./templates/service-details";
 import TeamPage from "./pages/team";
 import CaptainPage from "./pages/captain";
+import PolicyPage from "./pages/policy";
 import FaqPage from "./pages/faq";
 import BlogPage from "./pages/blog";
 import BlogLeftSidebarPage from "./pages/blog-left-sidebar";
@@ -69,6 +70,10 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/captain"}`}
                         component={CaptainPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/policy"}`}
+                        component={PolicyPage}
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/faq"}`}

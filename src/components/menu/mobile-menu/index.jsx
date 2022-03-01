@@ -94,6 +94,16 @@ const MobileMenu = ({ show, onClose }) => {
                                             Be A Captain
                                         </NavLink>
                                     </li>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                "/policy"
+                                            }
+                                        >
+                                            Policy Guidelines
+                                        </NavLink>
+                                    </li>
                                 </ul>
                             </li>
                             <li>

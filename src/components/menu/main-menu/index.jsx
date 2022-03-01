@@ -38,6 +38,14 @@ const MainMenu = () => {
                                 Be a Captain
                             </NavLink>
                         </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/policy"}
+                            >
+                                Policy Guidelines
+                            </NavLink>
+                        </li>
                     </ul>
                 </li>
                 <li>
