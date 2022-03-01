@@ -92,16 +92,13 @@ const Intro = ({ data }) => {
                                 to="/#"
                                 className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
                             >
-                                <img src="images\appIcon\apple1.png" alt="" />
+                                <img src="images\appIcon\play.png" alt="" />
                             </Link>
                             <Link
                                 to="/#"
                                 className="es-sty animated delay1 me-4 mb-3 mb-sm-0"
                             >
-                                <img
-                                    src="images\appIcon\playstore.png"
-                                    alt=""
-                                />
+                                <img src="images\appIcon\appstore.png" alt="" />
                             </Link>
                         </div>
                     </div>
