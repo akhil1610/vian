@@ -1,6 +1,12 @@
 import { useEffect, useRef } from "react";
 import SectionTitle from "../../../components/section-title";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+import "swiper/modules/effect-fade/effect-fade";
+import "swiper/modules/navigation/navigation";
+import "swiper/modules/pagination/pagination";
+
 import Testimonial from "../../../components/testimonial";
 import HomeData from "../../../data/home.json";
 import SwiperCore, { Navigation } from "swiper";
